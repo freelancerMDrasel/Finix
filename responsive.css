@@ -1,0 +1,236 @@
+    .header .span {
+        display: none;
+    }
+    
+    .manu-chec {
+        display: none;
+    }
+    
+    @media(max-width:1258px) {
+        .button {
+            margin-top: 10px;
+            display: block;
+            margin-left: 5px;
+        }
+        .button h6 a {
+            padding: 10px 20px;
+            font-size: 15px;
+        }
+        .header ul li a {
+            padding: 10px 10px;
+        }
+        .bg-image b {
+            font-size: 50px;
+        }
+        .banner-1 .div-3 {
+            left: 20px;
+        }
+    }
+    
+    @media(max-width:1125px) {
+        .banner-3 ul li ul {
+            left: -15%;
+        }
+    }
+    
+    @media(max-width:1075px) {
+        .button h6 a {
+            padding: 10px 10px;
+            font-size: 15px;
+        }
+        .header ul {
+            opacity: 0;
+            visibility: hidden;
+            height: 0;
+            text-align: left;
+            margin-left: -40px;
+        }
+        .manu-chec {
+            margin-left: 0px;
+            margin-top: 5px;
+            height: 40px;
+            width: 40px;
+            display: block;
+            opacity: 0;
+        }
+        .header .manu-chec:checked~ul {
+            opacity: 1;
+            visibility: visible;
+            height: 100%;
+        }
+        .header ul li {
+            display: block;
+        }
+        .header ul li ul {
+            top: 20%;
+            left: 8%;
+            z-index: 999;
+        }
+        .header .span {
+            font-size: 50px;
+            position: absolute;
+            top: 16px;
+            left: 122px;
+            pointer-events: none;
+            display: block;
+        }
+        .button {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+        }
+        .header span {
+            position: absolute;
+            top: 28px;
+            left: 65%;
+        }
+        .header b {
+            position: absolute;
+            top: 60px;
+            left: 65%;
+        }
+        .header strong {
+            position: absolute;
+            top: 60px;
+            left: 65%;
+        }
+        .header img {
+            position: absolute;
+            top: 20px;
+            left: 30%;
+        }
+    }
+    
+    @media(max-width:990px) {
+        .header .span {
+            left: 40px;
+        }
+        .header img {
+            left: 20%;
+        }
+        .button {
+            left: 45%;
+        }
+        .bg-image b {
+            font-size: 40px;
+        }
+        .bg-image h5 {
+            margin-top: 150px;
+        }
+        .banner-1 {
+            margin-top: 30px;
+        }
+        .about .from {
+            margin-top: 250px;
+        }
+        .contact h1 {
+            border-right: none;
+        }
+        .About-1 img {
+            margin-left: 100px;
+            margin-top: -250px;
+        }
+        .banner-3 ul li ul {
+            left: -5%;
+        }
+    }
+    
+    @media(max-width:650px) {
+        .header img {
+            height: 40px;
+            left: 12%;
+        }
+        .button {
+            left: 35%;
+        }
+        .bg-image b {
+            font-size: 30px;
+        }
+        .bg-image h5 {
+            margin-top: 100px;
+        }
+        .bg-image p {
+            font-size: 15px;
+        }
+    }
+    
+    @media(max-width:650px) {
+        .header img {
+            height: 30px;
+        }
+        .banner h2 {
+            font-size: 30px;
+        }
+    }
+    
+    @media(max-width:450px) {
+        .header .span {
+            font-size: 30px;
+            top: 25px;
+        }
+        .manu-chec {
+            height: 25px;
+            width: 25px;
+        }
+        .header img {
+            height: 25px;
+            top: 25px;
+        }
+        .button h6 a {
+            font-size: 10px;
+        }
+        .button {
+            top: 15px;
+        }
+        .header span {
+            font-size: 20px;
+        }
+        .header b {
+            font-size: 12px;
+            left: 60%;
+        }
+        .header strong {
+            font-size: 12px;
+            left: 60%;
+        }
+        .banner img {
+            height: 300px;
+            width: 300px;
+        }
+        .banner .div-1 {
+            left: 40%;
+        }
+        .about p {
+            font-size: 15px;
+        }
+        .contact {
+            text-align: center;
+        }
+        .About-1 .div-6 p {
+            font-size: 13px;
+            display: inline-block;
+        }
+    }
+    
+    @media(max-width:350px) {
+        .banner img {
+            height: 200px;
+            width: 200px;
+        }
+        .banner .div-1 {
+            left: 3%;
+            top: -190px;
+        }
+        .banner h6 {
+            margin-top: -100px;
+        }
+        .banner h2 {
+            font-size: 25px;
+        }
+        .banner p {
+            font-size: 15px;
+        }
+        .about p {
+            font-size: 10px;
+        }
+    }

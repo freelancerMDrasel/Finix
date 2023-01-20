@@ -1,0 +1,933 @@
+.header img {
+    display: block;
+    text-align: right;
+    cursor: pointer;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.header ul {
+    text-align: right;
+}
+
+.header ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.header ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.header ul li a i {
+    font-size: 10px;
+    padding: 0px 3px;
+}
+
+.header ul li a:hover {
+    color: red;
+}
+
+.header ul li:nth-child(8) i {
+    font-size: 20px;
+    display: block;
+    border-right: 1px solid rgb(112, 112, 112);
+    padding: 0px 10px;
+    margin-left: -10px;
+}
+
+.header span {
+    display: block;
+    font-size: 30px;
+    color: red;
+    margin-left: -30px;
+    margin-top: -10px;
+}
+
+.header b {
+    display: block;
+    margin-left: 25px;
+    margin-top: -45px;
+    color: rgb(131, 129, 129);
+    font-weight: normal;
+}
+
+.header strong {
+    display: block;
+    margin-left: 25px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+}
+
+.button {
+    margin-top: 10px;
+    display: block;
+    margin-left: 20px;
+}
+
+.button h6 {
+    display: inline-block;
+}
+
+.button h6 a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    padding: 10px 28px;
+    font-weight: normal;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+}
+
+.button h6 a::after {
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: aliceblue;
+    transition: .5s;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.button h6 a:hover::after {
+    width: 100%;
+}
+
+.button h6 a:hover {
+    color: aliceblue;
+}
+
+.header ul li ul {
+    position: absolute;
+    top: 100%;
+    left: -25%;
+    margin-left: 0;
+    width: 230px;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaley(0);
+    transition: .5s;
+    transform-origin: bottom center;
+}
+
+.header ul li ul li {
+    display: block;
+    margin-left: 0;
+}
+
+.header ul li ul li a {
+    display: block;
+    text-align: left;
+    margin-left: 0;
+    background-color: rgb(9, 182, 198);
+}
+
+.header ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: scaley(1);
+}
+
+.header ul li ul li a:hover {
+    letter-spacing: 2px;
+}
+
+.bg-image {
+    background-image: url(https://templates.envytheme.com/finix/default/assets/img/main-banner2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.bg-image h5 {
+    color: red;
+    margin-top: 250px;
+}
+
+.bg-image b {
+    display: block;
+    font-size: 60px;
+}
+
+.bg-image p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.bg-image .button {
+    margin: 0;
+    margin-top: 40px;
+}
+
+.bg-image h4 {
+    margin-top: 150px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.bg-image hr {
+    width: 40px;
+    margin-left: 110px;
+    height: 2px;
+    margin-top: -18px;
+}
+
+.bg-image ul {
+    margin-left: 105px;
+    margin-top: -30px;
+}
+
+.bg-image ul li {
+    display: inline-block;
+}
+
+.bg-image ul li a {
+    padding: 0px 10px;
+    transition: .5s;
+}
+
+.bg-image ul li a:hover {
+    color: red;
+}
+
+.marquee {
+    margin-top: 100px;
+}
+
+.marquee ul {
+    text-align: center;
+}
+
+.marquee ul li {
+    display: inline-block;
+}
+
+.marquee ul li img {
+    display: block;
+    padding: 0px 20px;
+    margin-bottom: 50px;
+}
+
+.banner {
+    margin-top: 100px;
+}
+
+.banner .div-1 {
+    height: 180px;
+    width: 200px;
+    background-color: rgb(247, 243, 243);
+    border-top: 1px solid red;
+    border-left: 5px solid red;
+    border-bottom: 1px solid red;
+    border-right: 5px solid red;
+    border-radius: 50%;
+    position: relative;
+    top: -200px;
+    left: 55%;
+}
+
+.banner .div-1 b {
+    display: block;
+    font-size: 70PX;
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+
+.banner .div-1 strong {
+    display: block;
+    text-align: center;
+}
+
+.banner h6 {
+    color: red;
+    margin-top: -20px;
+}
+
+.banner h2 {
+    font-size: 40px;
+    color: black;
+    margin-top: 20px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.banner ul {
+    margin-top: 15px;
+    margin-left: -40px;
+}
+
+.banner ul li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.banner ul li span {
+    color: red;
+    font-size: 25px;
+    padding: 3px 5px;
+}
+
+.button-2 {
+    margin-top: 30px;
+    display: block;
+    margin-left: 0px;
+}
+
+.button-2 h6 {
+    display: inline-block;
+}
+
+.button-2 h6 a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    padding: 10px 35px;
+    font-weight: normal;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+}
+
+.button-2 h6 a::after {
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: aliceblue;
+    transition: .5s;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.button-2 h6 a:hover::after {
+    width: 100%;
+}
+
+.button-2 h6 a:hover {
+    color: aliceblue;
+}
+
+.button {
+    margin-top: 10px;
+    display: block;
+    margin-left: 20px;
+}
+
+.button h6 {
+    display: inline-block;
+}
+
+.button h6 a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    padding: 10px 28px;
+    font-weight: normal;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+}
+
+.button h6 a::after {
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: aliceblue;
+    transition: .5s;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.button h6 a:hover::after {
+    width: 100%;
+}
+
+.button h6 a:hover {
+    color: aliceblue;
+}
+
+.banner-1 {
+    background-color: rgb(245, 215, 215);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.banner-1 h6 {
+    margin-top: 150px;
+    color: red;
+    text-align: left;
+}
+
+.banner-1 b {
+    display: block;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+}
+
+.banner-1 p {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.banner-1 img {
+    margin-top: 50px;
+    text-align: left;
+    display: block;
+}
+
+.banner-1 .div-2 {
+    display: inline-block;
+    margin-top: 140px;
+    height: 330px;
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+    transition: .5s;
+}
+
+.banner-1 .div-4 {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.banner-1 .div-3 {
+    text-align: center;
+    display: inline-block;
+    height: 220px;
+    width: 250px;
+    background-color: rgb(245, 215, 215);
+    border-radius: 50%;
+    position: absolute;
+    top: -130px;
+    left: 25px;
+}
+
+.banner-1 .div-2 p {
+    margin-top: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner-1 .div-2 h3 {
+    display: block;
+    margin-top: 100px;
+}
+
+.banner-1 .div-2 span {
+    display: inline-block;
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left: 0px;
+    color: red;
+    background-color: rgb(251, 251, 251);
+    height: 60px;
+    width: 70px;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.banner-1 .div-2 span i {
+    display: block;
+    margin-top: 20px;
+}
+
+.banner-1 .div-2 span:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.text {
+    margin-top: 100px;
+}
+
+.text h6 {
+    color: red;
+    text-align: center;
+}
+
+.text b {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+}
+
+.text p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about {
+    margin-top: 100px;
+}
+
+.about .div-5 {
+    position: relative;
+    height: 390px;
+    border-left: 1px solid red;
+    margin-top: 50px;
+}
+
+.about .div-5 ul {
+    display: block;
+    position: relative;
+    top: -60px;
+    left: -54px;
+}
+
+.about .div-5 ul li {
+    list-style: none;
+}
+
+.about .div-5 ul li span {
+    line-height: 125px;
+    background-color: rgb(253, 255, 255);
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: 1px solid red;
+    top: -20;
+    left: -50;
+}
+
+.about .div-5 b {
+    display: block;
+    font-size: 25px;
+    position: absolute;
+    top: -20px;
+    left: 43px;
+}
+
+.about .div-5 p {
+    position: absolute;
+    top: 35px;
+    left: 45px;
+}
+
+.about .div-5 .b-2 {
+    position: absolute;
+    top: 105px;
+    left: 45px;
+}
+
+.about .div-5 .p-2 {
+    position: absolute;
+    top: 145px;
+    left: 40px;
+}
+
+.about .div-5 .b-3 {
+    position: absolute;
+    top: 235px;
+    left: 50px;
+}
+
+.about .div-5 .p-3 {
+    position: absolute;
+    top: 270px;
+    left: 40px;
+}
+
+.about .div-5 .b-4 {
+    position: absolute;
+    top: 355px;
+    left: 45px;
+}
+
+.about .div-5 .p-4 {
+    position: absolute;
+    top: 385px;
+    left: 20px;
+}
+
+.about .from h6 {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about .from b {
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about .from {
+    background-color: rgb(250, 212, 212);
+    padding: 20px;
+}
+
+.about .from .number {
+    display: block;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    margin-top: 100px;
+    background-color: red;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.contact h1 {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-right: 1px solid #fff;
+}
+
+.contact span {
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: red;
+    border-radius: 50%;
+}
+
+.contact b {
+    font-size: 30px;
+    padding: 0px 20px;
+    color: #fff;
+}
+
+.About-1 {
+    margin-top: 100px;
+}
+
+.About-1 b {
+    font-size: 40px;
+    display: block;
+}
+
+.About-1 .div-6 ul li {
+    list-style: none;
+    line-height: 110px;
+    font-size: 50px;
+    color: red;
+}
+
+.About-1 .div-6 b {
+    display: block;
+    position: relative;
+    top: -430px;
+    left: 110px;
+    font-size: 30px;
+}
+
+.About-1 .div-6 p {
+    display: block;
+    position: relative;
+    top: -430px;
+    left: 110px;
+}
+
+.About-1 img {
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.text-1 {
+    margin-top: -300px;
+    background-color: rgb(250, 214, 214);
+    padding: 30px;
+}
+
+.text-1 h6 {
+    color: red;
+    text-align: center;
+}
+
+.text-1 b {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+}
+
+.text-1 p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about-2 .div-7 span {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    cursor: pointer;
+}
+
+.about-2 .div-7 b {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.relation b {
+    font-size: 25px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.relation {
+    margin-top: 100px;
+    background-color: rgb(250, 214, 214);
+    padding: 20px;
+}
+
+.about-2 .div-7 {
+    margin-top: 50px;
+}
+
+.crosel {
+    margin-top: 100px;
+}
+
+.banner-3 {
+    margin-top: 100px;
+}
+
+.banner-3 ul {
+    text-align: center;
+}
+
+.banner-3 ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.banner-3 ul li img {
+    display: block;
+}
+
+.banner-3 ul li ul {
+    position: absolute;
+    top: 85%;
+    left: -5%;
+    margin-left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transition: .5s;
+    transform-origin: bottom;
+}
+
+.banner-3 ul li ul li {
+    display: inline-block;
+    padding: 0px 0px;
+}
+
+.banner-3 ul li ul li span {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 13px;
+    border-radius: 50%;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.banner-3 ul li ul li span:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.banner-3 ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+.banner-3 h5 {
+    margin-left: 35px;
+    margin-top: 10px;
+    color: red;
+}
+
+.banner-3 h6 {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.about-3 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.about-3 img {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.about-3 h6 {
+    color: red;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.about-3 b {
+    display: block;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 35px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.about-3 b:hover {
+    color: red;
+}
+
+.about-3 a {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: .5s;
+}
+
+.about-3 a:hover {
+    color: red;
+    letter-spacing: 2px;
+}
+
+.futtor {
+    background-color: rgb(26, 78, 86);
+    margin-top: 100px;
+    padding: 100px 30px;
+}
+
+.futtor p {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.futtor span {
+    padding: 0px 5px;
+    color: rgb(255, 252, 252);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.futtor span:hover {
+    color: red;
+}
+
+.futtor b {
+    color: #fff;
+}
+
+.futtor h4 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.futtor a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+    transition: .5s;
+}
+
+.futtor a:hover {
+    color: red;
+    letter-spacing: 1px;
+}
+
+.futtor .div-8 {
+    display: flex;
+    margin-top: 25px;
+}
+
+.futtor .div-8 span {
+    font-size: 25px;
+    padding: 0px 20px;
+    cursor: inherit;
+}
+
+.futtor .div-8 h6 {
+    color: #fff;
+}
+
+.futtor .div-8 .Cont {
+    line-height: 25px;
+}
+
+.futter-2 {
+    background-color: rgb(26, 78, 86);
+    border-top: 1px solid rgb(49, 48, 48);
+    padding: 30px 0px;
+}
+
+.futter-2 h6 {
+    text-align: center;
+    color: rgb(19, 16, 16);
+}
+
+.futter-2 a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.futter-2 a:hover {
+    color: red;
+}
